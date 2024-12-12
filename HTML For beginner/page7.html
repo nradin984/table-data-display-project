@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <form action="action_page.php " method="POST">
+      <div>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob" />
+      </div>
+
+      <br />
+      <div>
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lname" placeholder="Squerepants" />
+      </div>
+      <br />
+      <div>
+        <div>
+          <label for="pass">Password:</label>
+          <input type="password" name="pass" id="pass" maxlength="12" />
+        </div>
+        <br />
+        <div>
+          <label for="email">email</label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Spant@gmail.com"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="phone">Phone#</label>
+          <input type="phone" id="phone" name="phone" placeholder="phone" />
+        </div>
+        <br />
+        <div>
+          <label for="bdate">bdate</label>
+          <input type="bdate" id="bdate" name="bdate" placeholder="bdate" />
+        </div>
+        <br />
+      </div>
+      <div>
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" name="quantity" placeholder="" />
+        <br />
+
+        <div>
+          <label for="title"></label>
+          <label>mr.</label>
+          <input type="radio" name="title" value="mr." />
+
+          <label>mrs.</label>
+          <input type="radio" name="title" value="mrs." />
+
+          <label>Phd.</label>
+          <input type="radio" name="title" value="Phd." />
+
+          <br />
+        </div>
+<br>
+<div>
+    <label for="payment">payment</label>
+    
+    <select id="payment" name="payment">
+
+<option >visa</option>
+<option >mastercard</option>
+<option >giftcard</option>
+
+    </select>
+</div>
+<br>
+<div>
+
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" name="subscribe" id="subscribe">
+</div>
+<br>
+        <div>
+            <br>
+          <input type="reset" />
+        </div>
+
+        <br />
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
