@@ -82,6 +82,7 @@ body {
   display: flex;
   gap: 10px;
   color: #9a9090;
+  border: none;
 }
 
 .size {
@@ -106,7 +107,7 @@ body {
   background: #085db3;
   color: #fff;
   border: none;
-  border-radius: 15px;
+  border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
